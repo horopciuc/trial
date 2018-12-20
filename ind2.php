@@ -12,7 +12,8 @@
 	<table>
 		<h1 class="exploreSt">Explore<br></h1>
 		<h2 class="yourSt">your<br></h2>
-		<h1 class="worldSt">World</h1>		
+		<h1 class="worldSt">World</h1>
+		
 				
 		<div>
 		<form autocomplete="off">
@@ -42,6 +43,7 @@
 			</fieldset>
 		</form>
 		</div> 
+
 		
 		<div class="nav">
 			<input type="checkbox" id="menu"/>
@@ -50,7 +52,7 @@
 			<div class="multi-level">
 				<div class="item">
 					<input type="checkbox" id="A"/>
-					<img src="arrow.jpg" class="arrow"><label for="A">Planes</label>
+					<img src="arrow.jpg" class="arrow"><label for="A"><!-- <i class="fas fa-plane"></i> -->Planes</label>
 
 						<ul>
 							<li><a href="#">Boeing737</a></li>
@@ -61,7 +63,7 @@
 
 				<div class="item">
 					<input type="checkbox" id="B"/>
-					<img src="arrow.jpg" class="arrow"><label for="B">Destinations</label>
+					<img src="arrow.jpg" class="arrow"><label for="B"><!-- <i class="fas fa-flag"></i> -->Destinations</label>
 
 					<ul>
 						<li>
@@ -109,6 +111,8 @@
 					</ul>
 
 				</div>
+
+
 
 			</div>
 		</div>

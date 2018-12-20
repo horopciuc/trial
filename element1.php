@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="picStyle.css">
 </head>
 <body>
+	
 	<div class="container">	
 		<div class="imgss">
 			<img src="nature.jpg">
@@ -15,6 +16,6 @@
 		<div class="imgss">
 			<img src="mici.jpg">
 		</div>
-	</div>
+	</div>\
 </body>
 </html>
