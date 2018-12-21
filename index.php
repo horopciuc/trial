@@ -14,7 +14,7 @@
 		<h2 class="yourSt">your<br></h2>
 		<h1 class="worldSt">World</h1>		
 				
-		<div>
+		<!-- <div>
 		<form autocomplete="off">
 			<fieldset>
 				<legend>Start a new Journey</legend>
@@ -41,77 +41,153 @@
 
 			</fieldset>
 		</form>
-		</div> 
-		
-		<div class="nav">
-			<input type="checkbox" id="menu"/>
-			<label for="menu">&#9776; Menu</label>
+		</div>  -->
+		<tr>
+			<td>
+			<div class="nav">
+				<input type="checkbox" id="menu"/>
+				<label for="menu">&#9776; Menu</label>
 
-			<div class="multi-level">
-				<div class="item">
-					<input type="checkbox" id="A"/>
-					<img src="arrow.jpg" class="arrow"><label for="A">Planes</label>
+				<div class="multi-level">
+					<div class="item">
+						<input type="checkbox" id="A"/>
+						<img src="arrow.jpg" class="arrow"><label for="A">Planes</label>
+
+							<ul>
+								<li><a href="#">Boeing737</a></li>
+								<li><a href="#">Boeing747</a></li>
+								<li><a href="#">Boeing767</a></li>
+							</ul>
+					</div>
+
+					<div class="item">
+						<input type="checkbox" id="B"/>
+						<img src="arrow.jpg" class="arrow"><label for="B">Destinations</label>
 
 						<ul>
-							<li><a href="#">Boeing737</a></li>
-							<li><a href="#">Boeing747</a></li>
-							<li><a href="#">Boeing767</a></li>
+							<li>
+								<div class="sub-item">
+									<input type="checkbox" id="B-A"/>
+									<img src="arrow.jpg" class="arrow"><label for="B-A">Spain</label>
+
+									<ul>
+										<li><a href="#">Places to visit</a></li>
+										<li><a href="#">Hotels</a></li>
+										<li><a href="#">Restaurants</a></li>
+									</ul>
+								
+								</div>
+							</li>
+
+							<li>
+								<div class="sub-item">
+									<input type="checkbox" id="B-B"/>
+									<img src="arrow.jpg" class="arrow"><label for="B-B">Italy</label>
+
+									<ul>
+										<li><a href="#">Places to visit</a></li>
+										<li><a href="#">Hotels</a></li>
+										<li><a href="#">Restaurants</a></li>
+									</ul>
+								
+								</div>
+							</li>
+
+							<li>
+								<div class="sub-item">
+									<input type="checkbox" id="B-C"/>
+									<img src="arrow.jpg" class="arrow"><label for="B-C">France</label>
+
+									<ul>
+										<li><a href="#">Places to visit</a></li>
+										<li><a href="#">Hotels</a></li>
+										<li><a href="#">Restaurants</a></li>
+									</ul>
+								
+								</div>
+							</li>
+												
 						</ul>
-				</div>
 
-				<div class="item">
-					<input type="checkbox" id="B"/>
-					<img src="arrow.jpg" class="arrow"><label for="B">Destinations</label>
-
-					<ul>
-						<li>
-							<div class="sub-item">
-								<input type="checkbox" id="B-A"/>
-								<img src="arrow.jpg" class="arrow"><label for="B-A">Spain</label>
-
-								<ul>
-									<li><a href="#">Places to visit</a></li>
-									<li><a href="#">Hotels</a></li>
-									<li><a href="#">Restaurants</a></li>
-								</ul>
-							
-							</div>
-						</li>
-
-						<li>
-							<div class="sub-item">
-								<input type="checkbox" id="B-B"/>
-								<img src="arrow.jpg" class="arrow"><label for="B-B">Italy</label>
-
-								<ul>
-									<li><a href="#">Places to visit</a></li>
-									<li><a href="#">Hotels</a></li>
-									<li><a href="#">Restaurants</a></li>
-								</ul>
-							
-							</div>
-						</li>
-
-						<li>
-							<div class="sub-item">
-								<input type="checkbox" id="B-C"/>
-								<img src="arrow.jpg" class="arrow"><label for="B-C">France</label>
-
-								<ul>
-									<li><a href="#">Places to visit</a></li>
-									<li><a href="#">Hotels</a></li>
-									<li><a href="#">Restaurants</a></li>
-								</ul>
-							
-							</div>
-						</li>
-											
-					</ul>
+					</div>
 
 				</div>
-
 			</div>
-		</div>
+			</td>
+
+			<td>
+				<div class="nav">
+				<input type="checkbox" id="menu"/>
+				<label for="menu">&#9776; Menu</label>
+
+				<div class="multi-level">
+					<div class="item">
+						<input type="checkbox" id="A"/>
+						<img src="arrow.jpg" class="arrow"><label for="A">Planes</label>
+
+							<ul>
+								<li><a href="#">Boeing737</a></li>
+								<li><a href="#">Boeing747</a></li>
+								<li><a href="#">Boeing767</a></li>
+							</ul>
+					</div>
+
+					<div class="item">
+						<input type="checkbox" id="B"/>
+						<img src="arrow.jpg" class="arrow"><label for="B">Destinations</label>
+
+						<ul>
+							<li>
+								<div class="sub-item">
+									<input type="checkbox" id="B-A"/>
+									<img src="arrow.jpg" class="arrow"><label for="B-A">Spain</label>
+
+									<ul>
+										<li><a href="#">Places to visit</a></li>
+										<li><a href="#">Hotels</a></li>
+										<li><a href="#">Restaurants</a></li>
+									</ul>
+								
+								</div>
+							</li>
+
+							<li>
+								<div class="sub-item">
+									<input type="checkbox" id="B-B"/>
+									<img src="arrow.jpg" class="arrow"><label for="B-B">Italy</label>
+
+									<ul>
+										<li><a href="#">Places to visit</a></li>
+										<li><a href="#">Hotels</a></li>
+										<li><a href="#">Restaurants</a></li>
+									</ul>
+								
+								</div>
+							</li>
+
+							<li>
+								<div class="sub-item">
+									<input type="checkbox" id="B-C"/>
+									<img src="arrow.jpg" class="arrow"><label for="B-C">France</label>
+
+									<ul>
+										<li><a href="#">Places to visit</a></li>
+										<li><a href="#">Hotels</a></li>
+										<li><a href="#">Restaurants</a></li>
+									</ul>
+								
+								</div>
+							</li>
+												
+						</ul>
+
+					</div>
+
+				</div>
+			</div>
+			</td>
+		</tr>
+		
 	</table>
 
 </body>
