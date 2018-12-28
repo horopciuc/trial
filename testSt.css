@@ -1,6 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
+	border: none;
+	list-style-type: none;
 }
 
 body {
@@ -10,47 +12,77 @@ body {
 	
 }
 
-div {
+/*div {
 	height: 60px;
 	width: 100%;
-	/*background-color: #3ab;*/
-}
+	
+}*/
 
-div p {
+/*div p {s
 	font-family: arial;
 	color: #222;
 	font-size: 24px;
 	line-height: 55px;
 	float: left;
 	padding: 0px 20px;
-}
-
+}*/
+/*
 div ul {
 	float: left;
-}
+}*/
 
 div ul li{
 	float: left;
 	list-style: none;
 	position: relative;
+	margin: 0;
+	padding: 0;
 }
 
 div ul li a {
+	background-color: #057BE3;
+	color: #fa2;
 	display: block;
+	font-family: arial;
+	font-size: 18px;
+	padding: 22px 14px;
+	text-decoration: none;
+	height: 10px;
+	
+}
+
+#myBtn {
+	/*display: block;
 	font-family: arial;
 	background-color: #057BE3;
 	color: #fa2;
 	font-size: 18px;
-	padding: 22px 14px;
+	position: relative;
+	margin: 0;
+	padding: 12px 14px;
 	text-decoration: none;
+	width: 100%;*/
+	padding: 12px;
+    position: relative;
+    border-radius: 4px;
+    border: 0px;
+    white-space: pre-wrap;
+	background-color: #057BE3;
+    color: #fa2;
+    display: block;
+    font-family: arial;
+    font-size: 18px;
+    padding: 22px 14px;
+    text-decoration: none;
+    height: 1px;
 }
 
 div ul li ul {
 	display: none;
 	position: absolute;
 	background-color: #fff;
-	padding: 10px;
-	border-radius: 0px 0px 4px 4px;
+	padding: 0px;
+	/*border-radius: 0px 0px 4px 4px;*/
 }
 
 div ul li:hover ul {
@@ -63,8 +95,13 @@ div ul li ul li {
 }
 
 div ul li ul li a {
-	padding: 8px 14px;
+	padding: 12px 14px;
+
+	position: relative;
+
 	border-radius: 4px;
+	border: 0px;
+	white-space: pre-wrap;
 }
 
 /*div ul li ul li a:hover {
@@ -84,3 +121,39 @@ div ul li ul li a {
 }
 
 */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

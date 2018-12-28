@@ -3,6 +3,7 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="testSt.css">
+	<script src="js.js"></script>
 </head>
 <body>
 
@@ -10,7 +11,16 @@
 		<ul>
 			<li><a href="#">Bikes</a>
 				<ul>
-					<li><a href="#">Model X</a></li>
+					<li>
+						<button id="myBtn">Model X</button>
+						<div id="myModal" class="modal">
+							<div class="modal-content">
+								<span class="close">&times;</span>
+								<img src="baudi.jpg">								
+								<script type="text/javascript" src="mdl.js"></script>
+							</div>							
+						</div>
+					</li>
 					<li><a href="#">Model Y</a></li>
 					<li><a href="#">Model Z</a></li>
 				</ul>
@@ -32,6 +42,7 @@
 			</li>
 		</ul>
 	</div>
+
 
 </body>
 </html>
