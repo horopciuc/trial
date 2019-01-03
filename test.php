@@ -12,7 +12,7 @@
 			<li><a href="#">Bikes</a>
 				<ul>
 					<li>
-						<button id="myBtn">Model XYZ</button>
+						<button id="myBtn">Model XZ</button>
 						<div id="myModal" class="modal">
 							<div class="modal-content">
 								<span class="close">&times;</span>
