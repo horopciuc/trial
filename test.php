@@ -48,6 +48,13 @@
 			</li>
 		</ul>
 	</div>
+	<div class="numberCls">
+		<div>Enter your number</div>
+		<input type="number" id="myNumber" min="1" max="100" ondrop="return false;" onpaste="return false;">
+		<button onclick="myFunction()">Try</button>
+		<p id="showResult"></p>
+		<script type="text/javascript" src="inputJS.js"></script>
+	</div>
 
 
 </body>
