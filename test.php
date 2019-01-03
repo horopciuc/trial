@@ -16,7 +16,13 @@
 						<div id="myModal" class="modal">
 							<div class="modal-content">
 								<span class="close">&times;</span>
-								<img src="baudi.jpg">								
+								<img src="baudi.jpg">
+								<div class="myDescription">Description
+									<br/>
+									<div id="bikePrice">Price</div>
+									<br/>
+									<p class="myPara">500$</p>
+								</div>
 								<script type="text/javascript" src="mdl.js"></script>
 							</div>							
 						</div>

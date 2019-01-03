@@ -12,25 +12,6 @@ body {
 	
 }
 
-/*div {
-	height: 60px;
-	width: 100%;
-	
-}*/
-
-/*div p {s
-	font-family: arial;
-	color: #222;
-	font-size: 24px;
-	line-height: 55px;
-	float: left;
-	padding: 0px 20px;
-}*/
-/*
-div ul {
-	float: left;
-}*/
-
 div ul li{
 	float: left;
 	list-style: none;
@@ -51,17 +32,7 @@ div ul li a {
 	
 }
 
-#myBtn {
-	/*display: block;
-	font-family: arial;
-	background-color: #057BE3;
-	color: #fa2;
-	font-size: 18px;
-	position: relative;
-	margin: 0;
-	padding: 12px 14px;
-	text-decoration: none;
-	width: 100%;*/
+#myBtn {	
 	padding: 12px;
     position: relative;
     border-radius: 4px;
@@ -77,12 +48,32 @@ div ul li a {
     height: 1px;
 }
 
+.myDescription {
+	color: green;
+	float: right;
+	font-size: 10;
+	padding-right: 95px;
+	position: relative;
+	
+}
+
+#bikePrice {
+	position: relative;
+	color: blue;
+	float: left;
+}
+
+.myPara {
+	position: relative;
+	float: left;
+	color: blue;
+}
+
 div ul li ul {
 	display: none;
 	position: absolute;
 	background-color: #fff;
-	padding: 0px;
-	/*border-radius: 0px 0px 4px 4px;*/
+	padding: 0px;	
 }
 
 div ul li:hover ul {
@@ -104,31 +95,15 @@ div ul li ul li a {
 	white-space: pre-wrap;
 }
 
-/*div ul li ul li a:hover {
-	background-color: gray;
-	border-radius: 4px;
-}*/
 
-/*div ul li:hover {
-	display: block;
-	position: absolute;
-	background-color: #fff;
-}*/
-
-
-/*div ul li ul li a {
-	padding: 8px 14px;
-}
-
-*/
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  width: 100%; 
+  /*height: auto; */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -137,10 +112,10 @@ div ul li ul li a {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 40%;
 }
 
 /* The Close Button */
