@@ -6,7 +6,7 @@ function myFunction() {
 		paritate1 	  = $('#showResult1'),
 		paritate2 	  = $('#showResult2'),
 		primeNumber   = $('#showResult3'),
-		isPrime 	  = true,
+		isPrime 	  = true;
 
 	if (number1 == '') {
 		// paritate1.html("-");

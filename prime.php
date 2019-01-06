@@ -17,7 +17,7 @@ else {
 			}
 		}
 		if ($isPrime) {
-			echo "The biggest prime number is " . $i;
+			echo "The biggest prime number in the interval is " . $i;
 			break;
 		}
 	}

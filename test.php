@@ -71,7 +71,6 @@
 	</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="js.js"></script>
 	<script type="text/javascript" src="modals.js"></script>
 	<script language="Javascript" type="text/javascript" src="inputJS.js"></script>
 </body>
