@@ -1,25 +1,33 @@
- /* Get from elements values */
-var values = $(this).serialize();  // <-- zafaq is dis
-var input = $("#myText");
-var reversedArray = new Array();
+$(document).ready(function() {
+    // Get initial value
+    var myInput         = $('#myText'),
+        myResult        = $("#myResult"),
+        myResult2       = $("#myResult2"),
+        myResult3       = $("#myResult3"),
+        myResult4       = $("#myResult4");
 
-for (var i = 0; i < input.length; i++ ) {
-    reversedArray[i] = input[input.length - (i+1)];
-}
+    // Req ajax
+    $('#button').click(function() {
+        $.ajax({
+            url: '4.php',
+            type: 'POST',
+            dataType: 'JSON',
+            data: {
+                initialString: myInput.val(),
+            }
+        })
+        .done(function(recivedData) {
+            if ( recivedData.InitialInput != undefined ) {
+                console.log(recivedData);
 
-
-$.ajax({
-    url: "2.php",
-    type: "post",
-    data: reversedArray,  //trimitem mai multe  !!! NU E COMPLET
-    dataType: "json",
-    success: function (response) {
-       // you will get response from your php page (what you echo or print)                 
-
-    },
-    error: function(jqXHR, textStatus, errorThrown) {
-       console.log(textStatus, errorThrown);
-    }
-
-
+                myResult.html(recivedData.InitialInput)
+                myResult2.html(recivedData.ReversedArray)
+                myResult3.html(recivedData.HexInput)
+                myResult4.html(recivedData.BinaryInput)
+            } else {
+                console.log("nu a mers");
+            };
+        })
+    });
 });
+

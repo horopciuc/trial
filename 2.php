@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
+	<title>Trial</title>
 </head>
 
-	<body>
-	<form method="POST">
+<body>
+
+	<form action="4.php" method="POST">
+
     <p>Enter the string</p>
-    <input type="text" name="myText" />
-    <input type="submit" name="Submit" />
+    <input type="text" id="myText">
+    <input type="button" id="button" value="Submit">
+
 	</form>
+    <div id="myResult"></div>
+    <div id="myResult2"></div>
+    <div id="myResult3"></div>
+    <div id="myResult4"></div>
 
-<!-- The result of the search will be rendered inside this div -->
-<div id="result"></div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="3.js"></script>
+
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+
 </body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="3.js"></script>
-
 </html>
